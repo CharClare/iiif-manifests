@@ -11,15 +11,13 @@
     {
       "id": "https://example.org/iiif/canvas/Copy1/60/97",
       "type": "Canvas",
-      "height": 2500,
+      "height": 2479,
       "width": 3508,
-
       "items": [
         {
           "id": "https://example.org/iiif/annotationpage/Copy1/60/97",
           "type": "AnnotationPage",
           "items": [
-            
             {
               "id": "https://example.org/iiif/annotation/Copy1/60/97",
               "type": "Annotation",
@@ -27,7 +25,7 @@
               "body": {
                 "type": "Choice",
                 "items": [
-                { 
+                {  
                 "id": "https://files.transkribus.eu/iiif/2/ZLKMKJQTZIZRZVGHJRHNTYUR/full/full/0/default.jpg",
                 "type": "Image",
                 "height": 2479,
@@ -35,115 +33,111 @@
                 "format": "image/jpg",
                 "label": {
                   "en": ["Form with photograph folded away"]
-                } 
-                },
-                {"id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/full/full/0/default.jpg",
-                  "type": "Image",
-                  "height": 2479,
-                  "width": 3508,
-                  "format": "image/jpg",
-                  "label": {
-                    "en": ["Form with photograph showing"]
-                  } 
-                },
-              {"id": "https://framemark.vam.ac.uk/collections/2009CB2676/full/full/0/default.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "height": 2500,
-              "width": 1545,
-              "label": {
-                "en": ["V and A Museum: Photograph of Mary Eastlake as Nelly Denver in <i>The Silver King</i>, Princess's Theatre, 1882, Guy Little Collection"]
-              },
-              "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
-              "service": [
-                {
-                  "id": "https://framemark.vam.ac.uk/collections/2009CB2676",
-                  "type": "ImageService3",
-                  "profile": "http://iiif.io/api/image/3/level2.json"
                 }
-              ]
-            }
-              ]
-            },
-            "target": "https://example.org/iiif/canvas/Copy1/60/97" 
-          }
-        ]
-      }
-    ],
-    
-    "annotations": [
-      {
-        "id": "https://example.org/iiif/canvas/Copy1/60/97/supplementing",
-        "type": "AnnotationPage",
-        "items": [
-          {
-            "id": "https://example.org/iiif/annotation/Copy1/60/97/photo",
-            "type": "Annotation",
-            "motivation": "supplementing",
-            "body": {
-              "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/321,495,761,1103/full/0/default.jpg",
-              "type": "Image",
-              "format": "image/jpeg",
-              "width": 761,
-              "height": 1103
-            },
-            "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=321,495,761,1103"
+              },
+              {
+                "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2479,
+                "width": 3508,
+                "format": "image/jpg",
+                "label": {
+                  "en": ["Form with photograph showing"]
+                }
+              },
+
+              {
+                "id": "https://framemark.vam.ac.uk/collections/2009CB2676/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1545,
+                "label": {
+                  "en": ["V and A Museum: Photograph of Mary Eastlake as Nelly Denver in <i>The Silver King</i>, Princess's Theatre, 1882, Guy Little Collection"
+                ]
+              },
+              "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions"
           }
         ]
       },
+              "target": "https://example.org/iiif/canvas/Copy1/60/97"
+            }
+          ]
+        }
+      ],
+
+      "annotations": [
         {
-        "id": "https://example.org/iiif/canvas/Copy1/60/97/regions",
-        "type": "AnnotationPage",
-        "items": [
-          {
-            "id": "https://example.org/iiif/anno/Copy1/60/97-r_1",
-            "type": "Annotation",
-            "motivation": "identifying",
-            "label": { "en": ["Alexander Bassano of 25 Old Bond Street"] },
-            "body": { "type": "Text", "value": "Region r_1" },
-            "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=321,528,2343,339"
-          },
-          {
-            "id": "https://example.org/iiif/anno/Copy1/60/97-r_2",
-            "type": "Annotation",
-            "motivation": "identifying",
-            "label": { "en": ["Description of Work: Photograph of Miss Eastlake. Seated leaning over back of chair, hands to face, nearly profile in face, in hood. Copy annexed."] },
-            "body": { "type": "Text", "value": "Region r_2" },
-            "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=324,861,1047,881"
-          },
-          {
-            "id": "https://example.org/iiif/anno/Copy1/60/97-r_3",
-            "type": "Annotation",
-            "motivation": "identifying",
-            "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: Alexander Bassano, 25 Old Bond Street, London"] },
-            "body": { "type": "Text", "value": "Region r_3" },
-            "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=1736,853,491,867"
-          },
-          {
-            "id": "https://example.org/iiif/anno/Copy1/60/97-r_4",
-            "type": "Annotation",
-            "motivation": "identifying",
-            "label": { "en": ["Name and Place of Abode of Author of Work: Alexander Bassano, 25 Old Bond Street, London"] },
-            "body": { "type": "Text", "value": "Region r_4" },
-            "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=2193,858,502,870"
-          },
-          {
-            "id": "https://example.org/iiif/anno/Copy1/60/97-r_5",
-            "type": "Annotation",
-            "motivation": "identifying",
-            "label": { "en": ["Dated 31st January 1883"] },
-            "body": { "type": "Text", "value": "Region r_5" },
-            "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=335,1708,2363,223"
-          }
-        ]
-      }
-    ] 
-  }
-],
+          "id": "https://example.org/iiif/canvas/Copy1/60/97/supplementing",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/Copy1/60/97/photo",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://files.transkribus.eu/iiif/2/ERYVFBTTRGSRCWRYAKZQNKZE/321,495,761,1103/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 761,
+                "height": 1103
+              },
+              "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=321,495,761,1103"
+            }
+          ]
+        },
+        {
+          "id": "https://example.org/iiif/canvas/Copy1/60/97/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/anno/Copy1/60/97-r_1",
+              "type": "Annotation",
+              "motivation": "identifying",
+              "label": { "en": ["Alexander Bassano of 25 Old Bond Street"] },
+              "body": { "type": "Text", "value": "Region r_1" },
+              "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=321,528,2343,339"
+            },
+            {
+              "id": "https://example.org/iiif/anno/Copy1/60/97-r_2",
+              "type": "Annotation",
+              "motivation": "identifying",
+              "label": { "en": ["Description of Work: Photograph of Miss Eastlake. Seated leaning over back of chair, hands to face, nearly profile in face, in hood. Copy annexed."] },
+              "body": { "type": "Text", "value": "Region r_2" },
+              "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=324,861,1047,881"
+            },
+            {
+              "id": "https://example.org/iiif/anno/Copy1/60/97-r_3",
+              "type": "Annotation",
+              "motivation": "identifying",
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: Alexander Bassano, 25 Old Bond Street, London"] },
+              "body": { "type": "Text", "value": "Region r_3" },
+              "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=1736,853,491,867"
+            },
+            {
+              "id": "https://example.org/iiif/anno/Copy1/60/97-r_4",
+              "type": "Annotation",
+              "motivation": "identifying",
+              "label": { "en": ["Name and Place of Abode of Author of Work: Alexander Bassano, 25 Old Bond Street, London"] },
+              "body": { "type": "Text", "value": "Region r_4" },
+              "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=2193,858,502,870"
+            },
+            {
+              "id": "https://example.org/iiif/anno/Copy1/60/97-r_5",
+              "type": "Annotation",
+              "motivation": "identifying",
+              "label": { "en": ["Dated 31st January 1883"] },
+              "body": { "type": "Text", "value": "Region r_5" },
+              "target": "https://example.org/iiif/canvas/Copy1/60/97#xywh=335,1708,2363,223"
+            }
+         ]
+        }
+      ]
+    }
+  ],
   "related": {
     "id": "http://collections.vam.ac.uk/item/O227789",
     "type": "text",
     "format": "text/html"
   }
-
 }
